@@ -46,11 +46,19 @@ function start() {
     if (jogo.pressionou[TECLA.up_arrow]) {
       var topo = parseInt($("#jogador").css("top"));
       $("#jogador").css("top", topo - 10);
+
+      if (topo <= 0) {
+        $("#jogador").css("top", topo + 10);
+      }
     }
 
     if (jogo.pressionou[TECLA.down_arrow]) {
       var topo = parseInt($("#jogador").css("top"));
       $("#jogador").css("top", topo + 10);
+
+      if (topo >= 434) {
+        $("#jogador").css("top", topo - 10);
+      }
     }
 
     if (jogo.pressionou[TECLA.D]) {
