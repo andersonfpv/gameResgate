@@ -8,11 +8,11 @@
 
 ![Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E")
 
-![Badge](https://img.shields.io/github/issues/andersonfpv/gameResgate")
+<!-- ![Badge](https://img.shields.io/github/issues/andersonfpv/gameResgate")
 
 ![Badge](https://img.shields.io/github/forks/andersonfpv/gameResgate")
 
-![Badge](https://img.shields.io/github/stars/andersonfpv/gameResgate")
+![Badge](https://img.shields.io/github/stars/andersonfpv/gameResgate") -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
