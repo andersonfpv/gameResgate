@@ -287,5 +287,5 @@ function start() {
       tempoExplosao3 = null;
     }
   } // Fim da função explosao3
-}
+} // Fim da função start
 
