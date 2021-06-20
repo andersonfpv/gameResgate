@@ -96,7 +96,7 @@ function start() {
 
   function moveinimigo2() {
     posicaoX = parseInt($("#inimigo2").css("left"));
-    $("#inimigo2").css("left", posicaoX - 3);
+    $("#inimigo2").css("left", posicaoX - velocidade);
 
     if (posicaoX <= 0) {
       $("#inimigo2").css("left", 775);
@@ -174,6 +174,7 @@ function start() {
     // Disparo com o inimigo1
 
     if (colisao3.length > 0) {
+      velocidade=velocidade+0.3;
       pontos = pontos + 100;
       inimigo1X = parseInt($("#inimigo1").css("left"));
       inimigo1Y = parseInt($("#inimigo1").css("top"));
@@ -189,6 +190,7 @@ function start() {
     // Disparo com o inimigo2
 
     if (colisao4.length > 0) {
+      velocidade = velocidade + 0.3;
       pontos = pontos + 50;
       inimigo2X = parseInt($("#inimigo2").css("left"));
       inimigo2Y = parseInt($("#inimigo2").css("top"));
