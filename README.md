@@ -14,7 +14,7 @@
 
 ![Badge](https://img.shields.io/github/stars/andersonfpv/gameResgate")
 
-![Badge](https://img.shields.io/github/license/andersonfpv/gameResgate")
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <h1 align="center">
   <img alt="gameResgate" title="gameResgate" src="./screenshots/gameResgate.gif" />
